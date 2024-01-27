@@ -67,4 +67,4 @@ document.querySelector(".search input")
     if(e.key === "Enter"){
         btn.click(); 
     }
-})
+});
