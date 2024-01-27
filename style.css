@@ -35,7 +35,7 @@ body{
 
 input{
     border-radius: 20px;
-    padding:  5% 9%;
+    padding:  5% 3%;
     color: rgb(98, 96, 96);
     border: none;
 }
@@ -132,7 +132,7 @@ input:focus{
 
 @media(max-width:850px){
     .detail-box{
-        width: 70vw;
+        width: 80%;
         height: fit-content;
     }
 
