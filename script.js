@@ -46,7 +46,8 @@ let checkWeather = async (cityNameVal)=>{
         windSpeed.textContent = `${data.wind.speed} km/h`;
         document.querySelector(".info").style.opacity = 1;
         document.querySelector(".search input").value = "";
-    } catch (error) {
+    }
+     catch (error) {
         temperature.textContent = "City Not Found!!";
         document.querySelector(".info").style.opacity = 0;
         cityName.style.opacity = 0;
