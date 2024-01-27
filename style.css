@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(44, 47, 80);
+}
+
+.main{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-box{
+    width: 40%;
+    height: fit-content;
+    margin: 5vw 0;
+    border-radius: 10px;
+    background: linear-gradient(160deg, rgba(12,255,191,1) 29%, rgba(64,123,117,1) 83%);
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 5% auto;
+}
+
+input{
+    border-radius: 20px;
+    padding:  5% 9%;
+    color: rgb(98, 96, 96);
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+.searchBtn{
+    background-color: white;
+    padding: 4%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBtn:hover{
+    cursor: pointer;
+}
+
+.fa-magnifying-glass{
+    font-size: 90%;
+    color: rgb(98, 96, 96);
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details .image{
+    width: 50%;
+    height: 50%;
+}
+.image img{
+    width: 100%;
+}
+
+.details h1{
+    font-size: 4vw;
+    margin: 5% 0;
+    color: rgb(228, 227, 225);
+    font-weight: 500;
+}
+
+.details h4{
+    font-size: 2vw;
+    margin: 0 0 5%;
+    color: rgb(228, 227, 225);
+    font-weight: 500;
+}
+
+.details h3{
+    font-size: 3vw;
+    color: rgb(228, 227, 225);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 7%;
+    opacity: 0;
+}
+
+.info .left, .info .right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info .left h2, .info .right h2{
+    color: rgb(226, 223, 223);
+    font-weight: 500;
+}
+
+.info .left p, .info .right p{
+    text-transform: capitalize;
+    color: rgb(200, 199, 199);
+}
+
+.info .image{
+    width: 20%;
+}
+.info .image img{
+    width: 100%;
+}
+
+
+
+@media(max-width:850px){
+    .detail-box{
+        width: 70vw;
+        height: fit-content;
+    }
+
+    .search{
+        width: 80%;
+    }
+
+    .details h1{
+        font-size: 9vw;
+    }
+
+    .details h4{
+        font-size: 5vw;
+    }
+
+    .details h3{
+        font-size: 7vw;
+    }
+
+    .info{
+        padding: 5% 3%;  
+    }
+
+    .info .left, .info .right{
+        justify-content: center;
+    }
+
+    .info .left div, .info .right div{
+        padding-left: 2vw;
+    }
+
+    .info .left h2, .info .right h2{
+        font-size: 4vw;
+    }
+    
+    .info .left p, .info .right p{
+        font-size: 3vw;
+    }
+}
