@@ -6,12 +6,21 @@
 }
 
 body{
-    background-color: rgb(44, 47, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 .main{
     width: 100%;
-    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +29,7 @@ body{
 .detail-box{
     width: 40%;
     height: fit-content;
-    margin: 5vw 0;
+
     border-radius: 10px;
     background: linear-gradient(160deg, rgba(12,255,191,1) 29%, rgba(64,123,117,1) 83%);
 }
@@ -70,8 +79,8 @@ input:focus{
 }
 
 .details .image{
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    /* height: 50%; */
 }
 .image img{
     width: 100%;
