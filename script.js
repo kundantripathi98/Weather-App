@@ -6,6 +6,7 @@ let btn = document.querySelector(".searchBtn"),
     feelsLike = document.querySelector(".feelsLike"),
     weatherIcon = document.querySelector("#icon"),
     description = document.querySelector("#description");
+
 const API_Key = "055b681eebdc7418e9439739458a2489";
 // const API_Key = "VVCLEC6YQPGRPE9WNFKBCHW6M";
 
